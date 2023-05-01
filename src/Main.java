@@ -69,7 +69,7 @@ public class Main {
         queue.enqueue(5);
         System.out.println("Queue size: " + queue.size());
         System.out.println("Peek element: " + queue.peek());*/
-        MyLinkedListStack<Integer> stack = new MyLinkedListStack<>();
+        /*MyLinkedListStack<Integer> stack = new MyLinkedListStack<>();
 
         // Push some elements onto the stack
         stack.push(10);
@@ -87,6 +87,6 @@ public class Main {
         System.out.println("Is stack empty? " + stack.isEmpty());
 
         // Print the size of the stack
-        System.out.println("Stack size: " + stack.size());
+        System.out.println("Stack size: " + stack.size());*/
     }
 }
