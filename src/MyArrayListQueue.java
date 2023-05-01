@@ -19,4 +19,10 @@ public class MyArrayListQueue<E> {
         }
         return list.remove(0);
     }
+    public E peek() {
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return list.get(0);
+    }
 }
