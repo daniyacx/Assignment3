@@ -1,9 +1,10 @@
 import java.util.NoSuchElementException;
-public class MyArrayListQueue {
-    private static MyArrayList queue = new MyArrayList();
-    MyArrayListQueue() {
-    }
-    public static void enqueue(Object o) {
-        queue.add(o);
+import java.util.ArrayList;
+
+public class MyArrayListQueue<E> {
+    private ArrayList<E> queueList;
+
+    public MyArrayListQueue() {
+        queueList = new ArrayList<E>();
     }
 }
