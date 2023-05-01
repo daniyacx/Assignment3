@@ -19,13 +19,13 @@ public class MyArrayListStack<E> {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
-        return list.remove(0);
+        return list.remove(size() - 1);
     }
     public E peek() {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
-        return list.get(0);
+        return list.get(size() - 1);
     }
     public int size() {
         return list.size();
