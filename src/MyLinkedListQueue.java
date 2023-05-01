@@ -8,4 +8,7 @@ public class MyLinkedListQueue<E> {
 
         list = new LinkedList<E>();
     }
+    public void enqueue(E element) {
+        list.add(element);
+    }
 }
