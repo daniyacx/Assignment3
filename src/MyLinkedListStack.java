@@ -23,4 +23,7 @@ public class MyLinkedListStack<E> extends MyLinkedList {
         }
         return (E) list.get(0);
     }
+    public int size() {
+        return list.size();
+    }
 }
