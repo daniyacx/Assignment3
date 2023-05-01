@@ -26,4 +26,7 @@ public class MyLinkedListQueue<E> {
         }
         return (E) list.get(0);
     }
+    public int size() {
+        return list.size();
+    }
 }
